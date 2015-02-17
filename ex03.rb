@@ -1,14 +1,14 @@
 # Exercise 3: Numbers and Math
 
-# +		plus					(addition)
-# -		minus					(subtraction)
-# / 	slash					(division)
-# * 	asterisk				(multiplication)
-# % 	percent 				(modulo)
-# < 	less-than 				(less than)
-# > 	greater-than 			(greater than)
-# <= 	less-than-equal			(less than or equal to)
-# >= 	greater-than-equal		(greater than or equal to)
+# +   plus          (addition)
+# -   minus         (subtraction)
+# /   slash         (division)
+# *   asterisk        (multiplication)
+# %   percent         (modulo)
+# <   less-than         (less than)
+# >   greater-than      (greater than)
+# <=  less-than-equal     (less than or equal to)
+# >=  greater-than-equal    (greater than or equal to)
 
 # Returns "I will now count my chickens:"
 puts "I will now count my chickens:"

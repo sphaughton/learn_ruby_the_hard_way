@@ -5,17 +5,17 @@ input_file = ARGV.first
 
 # Prints the entire text file it receives as an argument
 def print_all(f)
-	puts f.read
+  puts f.read
 end
 
 # This function uses to seek command to return to the beginning of the text file
 def rewind(f)
-	f.seek(0)
+  f.seek(0)
 end
 
 # Prints a specific line in a text file
 def print_a_line(line_count, f)
-	puts "#{line_count}, #{f.gets.chomp}"
+  puts "#{line_count}, #{f.gets.chomp}"
 end
 
 # Opens the file as defined in ARGV

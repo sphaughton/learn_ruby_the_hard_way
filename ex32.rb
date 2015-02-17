@@ -7,14 +7,14 @@ change = [1, 'pennies', 2, 'dimes', 3, 'quarters']
 # this first kind of for-loop goes through a list
 # in a more traditional style found in other languages
 for number in the_count
-	puts "This is count #{number}"
+  puts "This is count #{number}"
 end
 
 # same as above, but in a more Ruby style
 # this and the next one are the preferred
 # way Ruby for-loops are written
 fruits.each do |fruit|
-	puts "A fruit of type: #{fruit}"
+  puts "A fruit of type: #{fruit}"
 end
 
 # also we can go through mixed lists too
@@ -31,9 +31,9 @@ elements = []
 # Those created using ... exclude the end value.
 # When used as an iterator, ranges return each value in the sequence.
 (0..5).each do |i|
-	puts "adding #{i} to the list."
-	# pushes the i variable on the end of the list
-	elements.push(i)
+  puts "adding #{i} to the list."
+  # pushes the i variable on the end of the list
+  elements.push(i)
 end
 
 # now we can print them out too

@@ -2,19 +2,19 @@
 
 # Defines the function and names the arguments it will take
 def cheese_and_crackers(cheese_count, boxes_of_crackers)
-	# String interpolation showing the value of cheese_count
-	puts "You have #{cheese_count} cheeses!"
-	# String interpolation showing the value of boxes_of_crackers
-	puts "You have #{boxes_of_crackers} boxes of crackers!"
-	# Returns "Man that's enough for a party!"
-	puts "Man that's enough for a party!"
-	# Returns "Get a blanket." with a new-line character at the end.
-	puts "Get a blanket.\n"
+  # String interpolation showing the value of cheese_count
+  puts "You have #{cheese_count} cheeses!"
+  # String interpolation showing the value of boxes_of_crackers
+  puts "You have #{boxes_of_crackers} boxes of crackers!"
+  # Returns "Man that's enough for a party!"
+  puts "Man that's enough for a party!"
+  # Returns "Get a blanket." with a new-line character at the end.
+  puts "Get a blanket.\n"
 end
 
 puts "We can just give the function numbers directly:"
 # Gives the function two numbers to represent the arguments
-	cheese_and_crackers(20, 30)
+  cheese_and_crackers(20, 30)
 
 puts "OR, we can use variables from our script:"
 # Assigns a numeric variable value to amount_of_cheese

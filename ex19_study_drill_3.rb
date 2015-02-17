@@ -2,8 +2,8 @@
 
 # Write at least one more function of your own design, and run it 10 different ways.
 def amount_of_money(pounds, pennies)
-	puts "You have £#{pounds} and #{pennies}p!"
-	puts "That's a decent amount of money!\n\n"
+  puts "You have £#{pounds} and #{pennies}p!"
+  puts "That's a decent amount of money!\n\n"
 end
 
 amount_of_money(200, 0.2)

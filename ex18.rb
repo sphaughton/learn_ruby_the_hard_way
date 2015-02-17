@@ -3,22 +3,22 @@
 # This one is like your scripts with ARGV
 
 def print_two(*args)
-	arg1, arg2 = args
-	puts "arg1: #{arg1}, arg2: #{arg2}"
+  arg1, arg2 = args
+  puts "arg1: #{arg1}, arg2: #{arg2}"
 end
 
 # OK, that *args is actually pointless, we can just do This
 def print_two_again(arg1, arg2)
-	puts "arg 1: #{arg1}, arg 2: #{arg2}"
+  puts "arg 1: #{arg1}, arg 2: #{arg2}"
 end
 
 # This just takes one argument 
 def print_one(arg1)
-	puts "arg1: #{arg1}"
+  puts "arg1: #{arg1}"
 end
 
 def print_none()
-	puts "I got nothin'."
+  puts "I got nothin'."
 end
 
 print_two("Zed", "Shaw")
